@@ -1,0 +1,173 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: app - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/version.res" /i "\proj\pencil\libs\SDL2-2.0.1\src\main\windows" /d "_DEBUG" "C:\proj\pencil\libs\SDL2-2.0.1\src\main\windows\version.rc"" 
+Creating temporary file "C:\DOCUME~1\kosmix\LOCALS~1\Temp\RSP1BE.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/app.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\proj\pencil\source\debug.cpp"
+"C:\proj\pencil\source\platform.cpp"
+"C:\proj\pencil\source\texture.cpp"
+"C:\proj\pencil\source\ustring.cpp"
+"C:\proj\pencil\source\utils.cpp"
+"C:\proj\pencil\source\window.cpp"
+"C:\proj\pencil\source\algo\localmap.cpp"
+"C:\proj\pencil\source\app\appmain.cpp"
+"C:\proj\pencil\source\gui\cursor.cpp"
+"C:\proj\pencil\source\gui\draw2d.cpp"
+"C:\proj\pencil\source\gui\font.cpp"
+"C:\proj\pencil\source\gui\gui.cpp"
+"C:\proj\pencil\source\gui\icon.cpp"
+"C:\proj\pencil\source\gui\inevent.cpp"
+"C:\proj\pencil\source\gui\richtext.cpp"
+"C:\proj\pencil\source\gui\widget.cpp"
+"C:\proj\pencil\source\gui\layouts\appgui.cpp"
+"C:\proj\pencil\source\gui\widgets\button.cpp"
+"C:\proj\pencil\source\gui\widgets\droplist.cpp"
+"C:\proj\pencil\source\gui\widgets\editbox.cpp"
+"C:\proj\pencil\source\gui\widgets\image.cpp"
+"C:\proj\pencil\source\gui\widgets\text.cpp"
+"C:\proj\pencil\source\gui\widgets\winw.cpp"
+"C:\proj\pencil\source\input\input.cpp"
+"C:\proj\pencil\source\math\3dmath.cpp"
+"C:\proj\pencil\source\math\camera.cpp"
+"C:\proj\pencil\source\math\matrix.cpp"
+"C:\proj\pencil\source\math\plane3f.cpp"
+"C:\proj\pencil\source\math\quaternion.cpp"
+"C:\proj\pencil\source\math\vec3f.cpp"
+"C:\proj\pencil\source\math\vec4f.cpp"
+"C:\proj\pencil\source\sim\simdef.cpp"
+"C:\proj\pencil\source\sim\simflow.cpp"
+"C:\proj\pencil\source\sys\unicode.cpp"
+"C:\proj\pencil\source\sys\utf8.cpp"
+"C:\proj\pencil\source\render\shader.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\kosmix\LOCALS~1\Temp\RSP1BE.tmp" 
+Creating temporary file "C:\DOCUME~1\kosmix\LOCALS~1\Temp\RSP1BF.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/app.pdb" /debug /machine:I386 /out:"Debug/app.exe" /pdbtype:sept 
+.\Debug\debug.obj
+.\Debug\platform.obj
+.\Debug\texture.obj
+.\Debug\ustring.obj
+.\Debug\utils.obj
+.\Debug\window.obj
+.\Debug\localmap.obj
+.\Debug\appmain.obj
+.\Debug\cursor.obj
+.\Debug\draw2d.obj
+.\Debug\font.obj
+.\Debug\gui.obj
+.\Debug\icon.obj
+.\Debug\inevent.obj
+.\Debug\richtext.obj
+.\Debug\widget.obj
+.\Debug\appgui.obj
+.\Debug\button.obj
+.\Debug\droplist.obj
+.\Debug\editbox.obj
+.\Debug\image.obj
+.\Debug\text.obj
+.\Debug\winw.obj
+.\Debug\input.obj
+.\Debug\3dmath.obj
+.\Debug\camera.obj
+.\Debug\matrix.obj
+.\Debug\plane3f.obj
+.\Debug\quaternion.obj
+.\Debug\vec3f.obj
+.\Debug\vec4f.obj
+.\Debug\simdef.obj
+.\Debug\simflow.obj
+.\Debug\unicode.obj
+.\Debug\utf8.obj
+.\Debug\version.res
+.\Debug\shader.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\kosmix\LOCALS~1\Temp\RSP1BF.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+debug.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+platform.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+texture.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+ustring.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+utils.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+window.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+localmap.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+appmain.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+cursor.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+draw2d.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+font.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+gui.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+icon.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+inevent.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+richtext.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+widget.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+appgui.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+button.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+droplist.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+editbox.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+image.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+text.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+winw.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+input.cpp
+3dmath.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+camera.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+matrix.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+plane3f.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+quaternion.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+vec3f.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+vec4f.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+simdef.cpp
+simflow.cpp
+unicode.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+utf8.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+shader.cpp
+c:\proj\pencil\source\platform.h(110) : fatal error C1083: Cannot open include file: 'png.h': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+app.exe - 33 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
